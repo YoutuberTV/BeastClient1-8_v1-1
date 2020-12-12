@@ -1,0 +1,21 @@
+{
+  "filters": [
+    {
+      "filterName": "MSG",
+      "wordsContains": [
+        "msg"
+      ],
+      "wordsContainsNot": [],
+      "playSound": true,
+      "soundPath": "note.harp",
+      "highlightMessage": true,
+      "highlightColorR": 200,
+      "highlightColorG": 200,
+      "highlightColorB": 203,
+      "hideMessage": false,
+      "displayInSecondChat": true,
+      "filterTooltips": false,
+      "room": "Global"
+    }
+  ]
+}

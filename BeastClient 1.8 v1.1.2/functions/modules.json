@@ -1,0 +1,1163 @@
+{
+  "modules": {
+    "AfkTimerModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "idleSeconds": "20",
+        "customKey": ""
+      }
+    },
+    "BiomeModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "customKey": ""
+      }
+    },
+    "ClickTestModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "mouseTrackingMode": "First clicked key",
+        "testDuration": "1",
+        "displayAtZeroClicks": "false",
+        "customKey": "",
+        "mouseTrackingMethod": "FPS Polling"
+      }
+    },
+    "ClockModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "timeFormat": "HH:mm",
+        "customKey": "Uhrzeit",
+        "customFormat": ""
+      }
+    },
+    "CoordinatesModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        8.0,
+        0.0
+      ],
+      "y": [
+        18.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "displayYAxis": "true",
+        "digitCount": "0",
+        "displayXZAxis": "true",
+        "displaySingleLine": "false"
+      }
+    },
+    "DateModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": true,
+      "scale": 100,
+      "attributes": {
+        "dateFormat": "MM/dd/yyyy",
+        "customKey": "",
+        "customFormat": "fgf"
+      }
+    },
+    "FModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        8.0,
+        0.0
+      ],
+      "y": [
+        49.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "shortenNames": "false",
+        "cardinalPoints": "true",
+        "xzDirection": "true",
+        "directionNumber": "true"
+      }
+    },
+    "FPSModule": {
+      "enabled": [
+        "INGAME"
+      ],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        4.0,
+        0.0
+      ],
+      "y": [
+        54.0,
+        0.0
+      ],
+      "listedAfter": "PingModule",
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "smoothFPS": "true",
+        "underlineFormatting": "-1",
+        "italicFormatting": "-1",
+        "boldFormatting": "-1",
+        "formatting": "0",
+        "prefixColor": "-1",
+        "valueColor": "-1",
+        "bracketsColor": "-1",
+        "customKey": ""
+      }
+    },
+    "LavaTimerModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "fadeout": "3",
+        "customKey": ""
+      }
+    },
+    "MemoryModule": {
+      "enabled": [
+        "INGAME"
+      ],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        2.0,
+        0.0
+      ],
+      "y": [
+        123.0,
+        0.0
+      ],
+      "listedAfter": "FPSModule",
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "memoryType": "PERCENT",
+        "coloredNumber": "true",
+        "moreSpace": "true"
+      }
+    },
+    "OnlinePlayersModule": {
+      "enabled": [
+        "INGAME"
+      ],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        2.0,
+        0.0
+      ],
+      "y": [
+        70.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "customKey": ""
+      }
+    },
+    "PingModule": {
+      "enabled": [
+        "INGAME"
+      ],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "listedAfter": "OnlinePlayersModule",
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "displayAverage": "false",
+        "coloredPing": "true",
+        "averageColor": "-1"
+      }
+    },
+    "PotionEffectsModule": {
+      "enabled": [
+        "INGAME"
+      ],
+      "regions": [
+        "TOP_RIGHT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        -4.0,
+        0.0
+      ],
+      "y": [
+        7.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "hudSize": "1"
+      }
+    },
+    "ServerAddressModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        3.0,
+        0.0
+      ],
+      "y": [
+        56.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "customKey": ""
+      }
+    },
+    "ServerInfoModule": {
+      "enabled": [
+        "ESCAPE"
+      ],
+      "regions": [
+        "TOP_LEFT",
+        "CENTER"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        -152.0
+      ],
+      "y": [
+        0.0,
+        127.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "width": "305,305",
+        "height": "36,36"
+      }
+    },
+    "ServerSupportModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        5.0,
+        0.0
+      ],
+      "y": [
+        89.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "kills": "true"
+      }
+    },
+    "SpotifyModule": {
+      "enabled": [],
+      "regions": [
+        "BOTTOM_RIGHT",
+        "CENTER"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        -3.0,
+        -75.0
+      ],
+      "y": [
+        -33.0,
+        97.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "width": "150,150",
+        "height": "28,28"
+      }
+    },
+    "SpotifyTextModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {}
+    },
+    "TeamSpeakModule": {
+      "enabled": [
+        "ESCAPE"
+      ],
+      "regions": [
+        "TOP_LEFT",
+        "BOTTOM_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.19041735537190088
+      ],
+      "y": [
+        0.0,
+        -20.503410345082557
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "width": "150.0,334.80176211453744",
+        "chatHeight": "50",
+        "height": "308.0,214.16666666666674",
+        "hideWhenDisconnect": "false",
+        "displayMessagesInMCChat": "true",
+        "apikey": "",
+        "slot": "0"
+      }
+    },
+    "TeamSpeakTextModule": {
+      "enabled": [
+        "INGAME"
+      ],
+      "regions": [
+        "TOP_RIGHT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        -5.0,
+        0.0
+      ],
+      "y": [
+        68.0,
+        0.0
+      ],
+      "listedAfter": "PotionEffectsModule",
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "maxClients": "50"
+      }
+    },
+    "YouTubeRealTimeModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        2.0,
+        0.0
+      ],
+      "y": [
+        120.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "channelUniqueId": "UCdG_2Uv0fwpfWq4ckyOmKQw",
+        "interval": "2",
+        "displayChannelUrl": "https://www.youtube.com/channel/UCdG_2Uv0fwpfWq4ckyOmKQw",
+        "customKey": "Abonenten"
+      }
+    },
+    "ArrowAmountModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_RIGHT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "AUTO",
+        "DEFAULT"
+      ],
+      "x": [
+        -3.0,
+        0.0
+      ],
+      "y": [
+        3.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "visibility": "DEFAULT",
+        "itemSlot": "0"
+      }
+    },
+    "BootsModule": {
+      "enabled": [
+        "INGAME"
+      ],
+      "regions": [
+        "BOTTOM_CENTER",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        110.0,
+        0.0
+      ],
+      "y": [
+        -16.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "visibility": "DEFAULT",
+        "itemSlot": "6"
+      }
+    },
+    "ChestplateModule": {
+      "enabled": [
+        "INGAME"
+      ],
+      "regions": [
+        "BOTTOM_CENTER",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "AUTO",
+        "DEFAULT"
+      ],
+      "x": [
+        -108.0,
+        0.0
+      ],
+      "y": [
+        -22.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "visibility": "DEFAULT",
+        "itemSlot": "3"
+      }
+    },
+    "HeldItemModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "visibility": "DEFAULT",
+        "itemSlot": "0"
+      }
+    },
+    "HelmetModule": {
+      "enabled": [
+        "INGAME"
+      ],
+      "regions": [
+        "BOTTOM_CENTER",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "AUTO",
+        "DEFAULT"
+      ],
+      "x": [
+        -112.0,
+        0.0
+      ],
+      "y": [
+        -34.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "visibility": "DEFAULT",
+        "itemSlot": "2"
+      }
+    },
+    "LeggingsModule": {
+      "enabled": [
+        "INGAME"
+      ],
+      "regions": [
+        "BOTTOM_CENTER",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        111.0,
+        0.0
+      ],
+      "y": [
+        -32.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "visibility": "DEFAULT",
+        "itemSlot": "5"
+      }
+    },
+    "ChunkCachingModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {}
+    },
+    "ComboModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "customKey": ""
+      }
+    },
+    "EntityCountModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "showMaxEntityCount": "true",
+        "customKey": ""
+      }
+    },
+    "RangeModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "customKey": ""
+      }
+    },
+    "ScoreboardModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "entries": "true",
+        "showDisplayName": "true",
+        "size": "100",
+        "background": "true",
+        "scoreVisibility": "AUTO",
+        "slot": "-1",
+        "centerDisplayName": "true"
+      }
+    },
+    "SpeedModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "displayAtZeroSpeed": "false",
+        "customKey": ""
+      }
+    },
+    "ToggleSneakInfoModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "msg_flying_with_boost": "[Flying ({0}x boost)]",
+        "msg_sneak_toggled": "[Sneaking (Toggled)]",
+        "msg_sprint_toggled": "[Sprinting (Toggled)]",
+        "msg_riding": "[Riding]",
+        "msg_flying": "[Flying]",
+        "msg_sprint_key_held": "[Sprinting (Key Held)]",
+        "msg_sneak_key_held": "[Sneaking (Key Held)]",
+        "msg_dismounting": "[Dismounting]",
+        "msg_descending": "[Descending]",
+        "msg_sprint_vanilla": "[Sprinting (Vanilla)]"
+      }
+    },
+    "DirectionHudModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "markerColor": "-43691",
+        "showWhileChat": "true"
+      }
+    },
+    "KeyModModule": {
+      "enabled": [],
+      "regions": [
+        "CENTER_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        14.0,
+        0.0
+      ],
+      "y": [
+        -30.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {}
+    },
+    "Module1": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": true,
+      "scale": 100,
+      "attributes": {
+        "customKey": "Freundin",
+        "prefixColor": "-43521",
+        "keyVisible": "true",
+        "formatting": "0"
+      }
+    },
+    "Module2": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": true,
+      "scale": 100,
+      "attributes": {
+        "customKey": "Rang",
+        "prefixColor": "-5636096",
+        "keyVisible": "true",
+        "formatting": "0"
+      }
+    },
+    "Module3": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {}
+    },
+    "Module4": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {}
+    },
+    "Module5": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {}
+    },
+    "VoiceChatModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        2.0,
+        0.0
+      ],
+      "y": [
+        4.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "soundWave": "false"
+      }
+    },
+    "MinimapModule": {
+      "enabled": [],
+      "regions": [
+        "TOP_LEFT",
+        "TOP_LEFT"
+      ],
+      "alignment": [
+        "DEFAULT",
+        "DEFAULT"
+      ],
+      "x": [
+        2.0,
+        0.0
+      ],
+      "y": [
+        4.0,
+        0.0
+      ],
+      "useExtendedSettings": false,
+      "scale": 100,
+      "attributes": {
+        "cachingMethod": "CHUNK_TRIGGER",
+        "enumCardinalType": "NORMAL",
+        "autoZoom": "false",
+        "players": "false",
+        "nametags": "true",
+        "coordinates": "false",
+        "blur": "false",
+        "playerSize": "12",
+        "zoom": "12",
+        "undergroundView": "false",
+        "width": "80.0,80.0",
+        "circle": "true",
+        "jumpBouncing": "false",
+        "height": "80.0,80.0"
+      }
+    }
+  },
+  "moduleCategories": {
+    "Info": true,
+    "Items": true,
+    "Services": true,
+    "Other": true,
+    "Information": true,
+    "Externe Dienste": true,
+    "Sonstiges": true,
+    "External services": true,
+    "Miscellaneous": true
+  },
+  "modulesEnabled": true,
+  "gridEnabled": false,
+  "itemSlotGravity": true,
+  "guiScale": 100,
+  "prefixColor": -3397198,
+  "bracketsColor": -3357399,
+  "valuesColor": -14037851,
+  "formattingBold": 0,
+  "formattingItalic": 0,
+  "formattingUnderline": 0,
+  "keyVisible": true,
+  "backgroundVisible": false,
+  "backgroundColor": -16777216,
+  "backgroundTransparency": 50,
+  "padding": 0,
+  "defaultAlignment": "AUTO",
+  "defaultFormatting": "SQUARE_BRACKETS",
+  "defaultDurabilityVisibility": "PERCENT"
+}
