@@ -1,6 +1,6 @@
-# BeastClient1-8_v1-1
+# BeastClient
 
-Falls der Installer (https://github.com/YoutuberTV/BeastClient-Installer) nicht funkioniert, können Sie sich die Dateien auch einzelnd hier downloaden.
+Wir empfehlen eine Installation über unseren offiziellen Installer (https://github.com/YoutuberTV/BeastClient-Installer) um Fehlerhafte und nicht gestete Dateien nicht herunterzuladen.
 
 # BETA Versionen
 
